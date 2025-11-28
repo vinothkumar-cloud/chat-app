@@ -8,6 +8,9 @@ const BOT_REPLIES = [
   "Meow? 🐱",
   "I’m a bot, not your therapist.",
   "Please don’t talk to me before coffee ☕",
+  "nice to meet you",
+  "how can i help you",
+  "wow great",
 ];
 
 function App() {
@@ -40,7 +43,7 @@ function App() {
 
   return (
     <div className="chat-app">
-      <h2>💬 Chat with SarcastiBot</h2>
+      <h2>💬 Chat with chatbot</h2>
       <div className="chat-window">
         {messages.map((msg, index) => (
           <div
